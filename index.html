@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoyageAI - AI Trip Generator</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</head>
+<body class="bg-black text-white">
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 bg-black/80 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <span class="text-2xl font-bold">VoyageAI</span>
+                <a href="#download" class="px-4 py-2 rounded-full border border-white hover:bg-white hover:text-black transition-all">
+                    Download
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="min-h-screen flex items-center relative overflow-hidden pt-16">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(50,50,50,0.2),rgba(0,0,0,0.9))]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="text-center" data-aos="fade-up">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 inline-block text-transparent bg-clip-text">
+                    AI-Powered Trip Planning
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto mb-12">
+                    Your personal AI travel companion that creates perfect itineraries tailored just for you.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#download" class="px-8 py-4 bg-white text-black rounded-full hover:bg-gray-200 transition-all font-medium text-lg">
+                        Get Started
+                    </a>
+                    <a href="#features" class="px-8 py-4 border border-white rounded-full hover:bg-white hover:text-black transition-all font-medium text-lg">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-zinc-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-20" data-aos="fade-up">
+                <h2 class="text-4xl font-bold mb-4">Intelligent Features</h2>
+                <div class="w-20 h-1 bg-white mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- AI Planning -->
+                <div class="bg-black p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-16 w-16 bg-white text-black rounded-full flex items-center justify-center mb-6">
+                        <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Gemini AI Planning</h3>
+                    <p class="text-gray-400">
+                        Advanced AI algorithms create personalized travel itineraries based on your preferences and travel style.
+                    </p>
+                </div>
+
+                <!-- Firebase Authentication -->
+                <div class="bg-black p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-16 w-16 bg-white text-black rounded-full flex items-center justify-center mb-6">
+                        <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Secure Authentication</h3>
+                    <p class="text-gray-400">
+                        Powered by Firebase for secure and seamless user authentication and data management.
+                    </p>
+                </div>
+
+                <!-- Location Services -->
+                <div class="bg-black p-8 rounded-2xl" data-aos="fade-up" data-aos-delay="300">
+                    <div class="h-16 w-16 bg-white text-black rounded-full flex items-center justify-center mb-6">
+                        <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Smart Location</h3>
+                    <p class="text-gray-400">
+                        Integrated with Google Places API for accurate location data and place recommendations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="py-20 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(50,50,50,0.2),rgba(0,0,0,0.9))]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+            <div class="text-center" data-aos="fade-up">
+                <h2 class="text-4xl font-bold mb-8">Start Your Journey Today</h2>
+                <p class="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
+                    Download VoyageAI and experience the future of travel planning. Available now on Android through Expo.
+                </p>
+                <a href="https://expo.dev/accounts/rahul_dronamraju/projects/VoyageAI/builds/e0d54c52-0e04-4cf4-9066-a611337ada95" class="inline-flex items-center px-8 py-4 bg-white text-black rounded-full hover:bg-gray-200 transition-all font-medium text-lg">
+                    Download APK
+                    <svg class="ml-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-gray-800">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400">© 2024 VoyageAI. All rights reserved.</p>
+                <div class="flex items-center space-x-2 text-gray-400 mt-4 md:mt-0">
+                    <span>Built with</span>
+                    <span class="px-2 py-1 bg-zinc-900 rounded-md">React Native</span>
+                    <span class="px-2 py-1 bg-zinc-900 rounded-md">Expo</span>
+                    <span class="px-2 py-1 bg-zinc-900 rounded-md">Gemini</span>
+                    <span class="px-2 py-1 bg-zinc-900 rounded-md">Firebase</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+</body>
+</html>
