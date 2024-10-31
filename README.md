@@ -81,7 +81,7 @@ VoyageAI is an intelligent travel companion that leverages AI to create personal
 
 ## 📲 Installation
 
-1. Download the APK from our [landing page]()
+1. Download the APK from our [landing page](https://voyageaihome.netlify.app/)
 2. Enable installation from unknown sources in your Android settings
 3. Install and launch VoyageAI
 
